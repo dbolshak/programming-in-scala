@@ -5,7 +5,7 @@ import org.scalatest.{FlatSpec, Matchers}
 /**
   * Created by dbolshak on 19/05/2017.
   */
-class CountiesMapSpec extends FlatSpec with Matchers {
+class CountriesMapSpec extends FlatSpec with Matchers {
 
   "gets the capital associated with the country France" should "return Paris" in {
     var capital = Map("US" -> "Washington", "France" -> "Paris")

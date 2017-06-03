@@ -19,8 +19,7 @@ class LoopSpec extends FlatSpec with Matchers {
 
   it should "be printed using foreach" in {
     var i = 0
-    args.foreach {
-      arg =>
+    args.foreach { arg =>
         print(arg)
         i += 1
     }

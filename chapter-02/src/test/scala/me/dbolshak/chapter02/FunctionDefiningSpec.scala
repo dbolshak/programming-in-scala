@@ -9,7 +9,7 @@ class FunctionDefiningSpec extends FlatSpec with Matchers {
 
   def max(x: Int, y: Int) = if (x > y) x else y
 
-  "just defined max function" should "2 if inputs are 1 and 2" in {
+  "just defined max function" should "return 2 if inputs are 1 and 2" in {
     max(1, 2) should be (2)
   }
 }
